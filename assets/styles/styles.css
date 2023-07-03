@@ -1,0 +1,61 @@
+/* ==== base styles ==== */
+@font-face {
+  font-family: 'Norse';
+  src: url('Norse-Bold.otf');
+}
+
+:root {
+  --blueberry: hsl(219, 84%, 63%);
+  --very-light-malachite-green: hsl(135, 84%, 63%);
+  --pastel-red: hsl(0, 96%, 70%);
+  --spanish-gray: hsl(216, 5%, 58%);
+  --bright-gray: hsl(220, 13%, 91%);
+  --ghost-white: hsl(240, 100%, 99%);
+  --white: hsl(0, 0%, 100%);
+
+  --rich-black: 195, 91%, 4%;
+  --fern-green: 92, 20%;
+
+  --border-radius: 0.6rem;
+
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--rich-black);
+}
+
+input,
+button {
+  font-size: 100%;
+  font-family: inherit;
+  appearance: none;
+  outline: none;
+}
+
+/* ==== utils ==== */
+.space-left {
+  padding-inline: 3.2rem;
+}
+
+.wrapper {
+  display: grid;
+}
