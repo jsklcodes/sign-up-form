@@ -1,7 +1,7 @@
 /* ==== base styles ==== */
 @font-face {
   font-family: 'Norse';
-  src: url('Norse-Bold.otf');
+  src: url('../fonts/Norse-Bold.otf');
 }
 
 :root {
