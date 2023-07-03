@@ -14,9 +14,12 @@ This is a solution to The Odin Project's [Sign-up Form Project](https://www.theo
 
 #### Screenshots
 
-![Sign-up Form Desktop](assets/images/screenshots/screenshot-1.png)
+<img src="assets/images/screenshots/screenshot-1.png">
 Sign-up Form Desktop
-![Sign-up Form Mobile](assets/images/screenshots/screenshot-2.png)
+
+&nbsp;
+
+<img src="assets/images/screenshots/screenshot-2.png" width="400">
 Sign-up Form Mobile
 
 #### Built with
