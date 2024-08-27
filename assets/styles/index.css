@@ -1,0 +1,79 @@
+@import url('./modern-normalize.min.css');
+
+/* ============ basic styles ============ */
+:root {
+  --color-border: hsl(0, 0%, 95%);
+  --color-texts: hsl(193, 42%, 20%);
+  --color-accent: hsl(346, 64%, 56%);
+  --color-light: hsl(0, 0%, 97%);
+  --color-dark: hsl(191, 38%, 6%);
+
+  --border-radius: 4px;
+  --font-size-base: 1.6rem;
+
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: var(--font-size-base);
+  color: var(--color-texts);
+}
+
+h1 {
+  color: var(--color-dark);
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+input,
+button {
+  border-radius: var(--border-radius);
+  border: none;
+  padding: 0.6rem 1rem;
+}
+
+input {
+  border: 1px solid var(--color-border);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+/* ============ button ============ */
+.button {
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-light);
+  background-color: var(--color-accent);
+  transition: background-color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.button:hover {
+  background-color: var(--color-dark);
+  cursor: pointer;
+}
+
+/* ============ image column ============ */
+.image-column {
+  flex: 1 1 30rem;
+}
+
+/* ============ form column ============ */
+.form-column {
+  background-color: var(--color-light);
+  flex: 2 1 40rem;
+}
