@@ -96,6 +96,8 @@ input {
 .form-column {
   background-color: var(--color-light);
   flex: 2 1 40rem;
+  padding-inline: 3.2rem;
+  align-content: center;
 }
 
 .form-header {
