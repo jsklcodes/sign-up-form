@@ -69,7 +69,27 @@ input {
 
 /* ============ image column ============ */
 .image-column {
+  position: relative;
+  background: url('../images/bg-img.jpg') no-repeat center / cover;
   flex: 1 1 30rem;
+  color: var(--color-light);
+}
+
+.logo {
+  font-weight: 600;
+  font-size: clamp(1.8rem, 2.5vw, 2rem);
+  padding: 2rem;
+}
+
+.bg-credits {
+  position: absolute;
+  bottom: 0;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+.bg-credits a {
+  color: var(--color-light);
 }
 
 /* ============ form column ============ */
