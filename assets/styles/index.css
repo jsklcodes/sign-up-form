@@ -56,6 +56,16 @@ input:focus {
   box-shadow: 0 0 2px 1px hsla(var(--color-focus), 0.2);
 }
 
+input:not(:focus):user-invalid {
+  border-color: var(--color-error);
+  color: var(--color-error);
+}
+
+input:not(:focus):placeholder-shown {
+  border-color: var(--color-border);
+  color: initial;
+}
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
