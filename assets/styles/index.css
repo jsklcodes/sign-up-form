@@ -105,3 +105,23 @@ input {
   margin-bottom: 3.2rem;
   max-width: 60ch;
 }
+
+.form-grid {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  margin-bottom: 3.2rem;
+  width: min(100%, 72rem);
+}
+
+.form-group {
+  display: grid;
+  row-gap: 0.8rem;
+}
+
+.form-label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
