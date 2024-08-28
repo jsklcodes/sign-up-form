@@ -51,6 +51,11 @@ input {
   border: 1px solid var(--color-border);
 }
 
+input:focus {
+  border-color: hsl(var(--color-focus));
+  box-shadow: 0 0 2px 1px hsla(var(--color-focus), 0.2);
+}
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
