@@ -125,3 +125,12 @@ input {
   font-size: 1.3rem;
   letter-spacing: 1px;
 }
+
+/* ============ login link ============ */
+.login-link {
+  transition: color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.login-link:hover {
+  color: var(--color-dark);
+}
